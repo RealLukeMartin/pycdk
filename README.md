@@ -1,7 +1,17 @@
 
-# Welcome to your CDK Python project!
+# Example CDK Python Project
+This is an example project for CDK development with Python.
 
-This is a blank project for CDK development with Python.
+This project creates:
+* VPC
+* Subnets
+* Public and Private Subnets
+* Security Group
+* Internet Gateway
+* Public and Private EC2 Instances
+
+The only manual step in AWS to do before running this project is create a Key Pair called web-key.pem
+This is used for ssh'ing into the public instance.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
