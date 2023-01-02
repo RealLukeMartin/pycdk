@@ -4,8 +4,8 @@ This is an example project for CDK development with Python.
 
 This project creates:
 * VPC
-* Subnets
 * Public and Private Subnets
+* Route Table
 * Security Group
 * Internet Gateway
 * Public and Private EC2 Instances
